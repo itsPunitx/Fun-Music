@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  overflow: hidden;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  position: absolute;
+  top: 20px;
+  font-size: 2rem;
+  z-index: 10;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
